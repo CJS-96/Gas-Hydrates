@@ -1,4 +1,4 @@
-# Description for the codes to calculate gas hydrates properties
+# Description of the codes to calculate gas hydrates properties
 
 There are two directories in this repository: Simulation/ and vdWP-FL_Theory/
 
