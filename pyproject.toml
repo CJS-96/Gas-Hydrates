@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vdwpfl"
+version = "1.0.0"
+description = "van der Waals-Platteeuw Flexible Lattice theory for gas hydrates"
+readme = "INSTALL.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "sympy",
+    "questionary",
+]
+
+[project.scripts]
+vdwpfl = "vdwpfl.vdWP_FL:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vdwpfl*"]
+
+[tool.setuptools.package-data]
+"vdwpfl.data" = ["*.dat"]
