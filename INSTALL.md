@@ -18,7 +18,7 @@ van der Waals-Platteeuw Flexible Lattice (vdWP-FL) theory.
 Requires Python 3.9 or higher.
 
 ```
-pip install git+https://github.com/your-username/vdwpfl.git
+pip install git+https://github.com/CJS-96/Gas-Hydrates.git
 ```
 
 ---
