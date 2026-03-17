@@ -15,3 +15,5 @@ build/
 *.csv
 # Keep bundled data files inside the package
 !vdwpfl/data/*.dat
+# Keep data files in paper codes
+!Shah_JPCC-2025_PaperCodes/**/*.dat
